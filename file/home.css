@@ -1,0 +1,231 @@
+body,html{
+margin: 0;
+padding: 0;
+background-image: url(blue.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+header{
+width: 1370px;
+height: 70px;
+background-color: #282828;
+}
+
+h1{
+position: absolute;
+float: left;
+margin-left: 1%;
+margin-top: 5px;
+font-size: 40px;
+font-family: 'Alfa Slab One', cursive;
+color: #39ca74;
+}
+
+span{
+color: #ffffff;
+}
+
+ul{
+width: auto;
+float: right;
+margin-top: 8px;
+}
+
+li{
+display: inline-block;
+padding: 15px 30px;
+font-family: 'Alfa Slab One', cursive;
+}
+
+a{
+text-align: center;
+color: #ffffff;
+text-decoration: none;
+font-family: "Open Sans" sans-serif;
+font-size: 1,2vw;
+}
+
+a:hover{
+color: #f0c330;
+transition: 0,5;
+}
+
+#isi{
+width: 1370px;
+height: 900px;
+}
+
+#kesatu{
+width: 300px;
+height: 400px;
+border: 1px solid;
+position: relative;
+left: 1040px;
+top: 10px;
+border-color: white;
+background-color: #2d7d6387;
+box-shadow: 0px 2px 5px black;
+}
+
+#kesatu h2{
+  border: 1px solid;
+  background-color: #282828;
+  position: relative;
+  top: -20px;
+  border-color: white;
+  font-family: 'Alfa Slab One', cursive;
+  color: #39ca74;
+}
+
+#kesatu ul{
+  position: relative;
+  right: 60px;
+  margin-top: -50px;
+}
+
+#kesatu li{
+  display: inline-block;
+  padding: 10px 25px;
+  font-size: 20px;
+}
+
+#chat{
+width: 300px;
+height: 400px;
+border: 1px solid;
+position: relative;
+left: 1040px;
+top: 70px;
+border-color: white;
+background-color: #2d7d6387;
+box-shadow: 0px 2px 5px black;
+}
+
+#chat h2{
+  border: 1px solid;
+  position: relative;
+  background-color: #282828;
+  top: -20px;
+  border-color: white;
+  font-family: 'Alfa Slab One', cursive;
+  color: #39ca74;
+}
+
+#chat ul{
+  position: relative;
+  right: 50px;
+  top: -50px;
+}
+
+#chat li{
+  padding: 5px 15px;
+}
+
+#Jadwal{
+width: 1000px;
+height:860px;
+border: 1px solid;
+position: relative;
+left: 10px;
+top: -794px;
+border-color: white;
+background-color: #2d7d6387;
+box-shadow: 0px 2px 5px black;
+}
+
+#Jadwal h2{
+  border: 1px solid;
+  position: relative;
+  background-color: #282828;
+  top: -20px;
+  border-color: white;
+  font-family: 'Alfa Slab One', cursive;
+  color: #39ca74;
+}
+
+.senin{
+  width: 900px;
+  height: 100px;
+  border: 1px solid;
+  position: relative;
+  left: 50px;
+  border-color: white;
+}
+
+.senin p{
+  font-family: 'Alfa Slab One', cursive;
+  color: white;
+  position: relative;
+  top: -40px;
+  left: 370px;
+  font-size: 30px;
+}
+
+.senin p:hover{
+  color: #f0c330;
+  transition: 0,5;
+}
+
+.selasa{
+  width: 900px;
+  height: 100px;
+  border: 1px solid;
+  position: relative;
+  left: 50px;
+  top: 20px;
+  border-color: white;
+}
+
+.selasa p{
+  font-family: 'Alfa Slab One', cursive;
+  color: white;
+  position: relative;
+  top: -40px;
+  left: 390px;
+  font-size: 30px;
+}
+
+.selasa p:hover{
+  color: #f0c330;
+  transition: 0,5;
+}
+
+.rabu{
+  width: 900px;
+  height: 100px;
+  border: 1px solid;
+  position: relative;
+  left: 50px;
+  top: 40px;
+  border-color: white;
+}
+
+.rabu p{
+  font-family: 'Alfa Slab One', cursive;
+  color: white;
+  position: relative;
+  top: -40px;
+  left: 390px;
+  font-size: 30px;
+}
+
+.rabu p:hover{
+  color: #f0c330;
+  transition: 0,5;
+}
+
+footer{
+width: 1370px;
+height: 50px;
+background-color: #282828;
+}
+
+footer h2{
+color: white;
+font-size: 15px;
+padding-top: 20px;
+padding-left: 100px;
+}
