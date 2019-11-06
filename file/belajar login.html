@@ -9,7 +9,21 @@
 <header>
   <h1>Belajar<span>IT</span></h1>
 </header>
+      <script language="JavaScript">
+        function login(){
+          var Username=document.login.Username.value;
+          Username=Username.toLowerCase();
+          var password=document.login.password.value;
+          password=password.toLowerCase();
 
+            if(Username=="Adib" && password=="1234"){
+              alert("Selamat Anda Berhasil Login")
+            }
+            else{
+              alert("Username atau Password Anda Salah")
+            }
+        }
+      </script>
 <body>
   <div class="login">
     <h2> Login Form </h2>
@@ -22,7 +36,7 @@
       <input type="password" placeholder="Password">
     </div>
 
-    <a href="home.html"><button type="submit" class="btn-login">
+    <a href="home.html"><button onClick="alert('Selamat Datang di BelajarIT')" type="submit" class="btn-login">
       Login
     </button></a>
     <div class="button">
