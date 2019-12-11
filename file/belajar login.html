@@ -9,38 +9,28 @@
 <header>
   <h1>Belajar<span>IT</span></h1>
 </header>
-      <script language="JavaScript">
-        function login(){
-          var Username=document.login.Username.value;
-          Username=Username.toLowerCase();
-          var password=document.login.password.value;
-          password=password.toLowerCase();
 
-            if(Username=="Adib" && password=="1234"){
-              alert("Selamat Anda Berhasil Login")
-            }
-            else{
-              alert("Username atau Password Anda Salah")
-            }
-        }
-      </script>
 <body>
   <div class="login">
     <h2> Login Form </h2>
 
-    <div class="box-login">
-      <i class="fas fa-envelope"></i>
-      <input type="text" placeholder="Username">
-    </div>
-    <div class="box-login">
-      <input type="password" placeholder="Password">
-    </div>
+    <table>
+      <tr>
+        <td><label class="font" for="name">Username</label></td>
+        <td><input type="text" placeholder="" class="input"></td>
+      </tr>
+      <tr>
+        <td><label class="font" for="name">password</label></td>
+        <td><input type="password" placeholder="" class="input"></td>
+      </tr>
+    </table>
 
-    <a href="home.html"><button onClick="alert('Selamat Datang di BelajarIT')" type="submit" class="btn-login">
+
+    <button type="submit" class="btn-login">
       Login
-    </button></a>
+    </button>
     <div class="button">
-    <a href="belajar konfirmasi.html">lupa password</a>
+    <a href="">lupa password</a>
   </div>
 </div>
 
